@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const config = new DocumentBuilder()
   .setTitle('Projects Management')
-  .setDescription('Clone of Jira xd..!')
+  .setDescription('Clone of Jira xd...!')
   .setVersion('1.0')
   .addTag('projects')
   .build();
